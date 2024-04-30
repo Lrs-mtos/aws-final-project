@@ -1,0 +1,121 @@
+{
+	"Nome": "Projeto_Final_AWS_Ada",
+	"Custo total": {
+		"mensal": "37.75",
+		"Pagamento adiantado": "0.00",
+		"12 meses": "453.00"
+	},
+	"Metadados": {
+		"Moeda": "USD",
+		"Localidade": "pt_BR",
+		"Criado em": "29/04/2024",
+		"Isenção de responsabilidade legal": "A Calculadora de Preços da AWS fornece apenas uma estimativa de suas taxas da AWS e não inclui nenhuma taxa aplicável. Suas taxas reais dependem de vários fatores, inclusive de seu uso real dos serviços da AWS.",
+		"Compartilhar URL": "https://calculator.aws/#/estimate?id=db650134fd9b4e15d719702b4f88e0b70dee429c"
+	},
+	"Grupos": {
+		"Serviços": [
+			{
+				"Nome do serviço": "Amazon Route 53",
+				"Região": "Leste dos EUA (N. da Virgínia)",
+				"Custo do serviço": {
+					"mensal": "1.01",
+					"Pagamento adiantado": "0.00",
+					"12 meses": "12.12"
+				},
+				"Propriedades": {
+					"Número de domínios armazenados": "1",
+					"Zonas hospedadas": "2",
+					"Verificações básicas dentro da AWS": "10"
+				}
+			},
+			{
+				"Nome do serviço": "Amazon API Gateway",
+				"Região": "Leste dos EUA (N. da Virgínia)",
+				"Custo do serviço": {
+					"mensal": "0.05",
+					"Pagamento adiantado": "0.00",
+					"12 meses": "0.60"
+				},
+				"Propriedades": {
+					"Unidades de solicitação da API REST": "milhares",
+					"Tamanho da memória do cache (GB)": "Nenhum",
+					"Unidades de mensagens WebSocket": "milhares",
+					"Unidades de solicitações da API HTTP": "milhares",
+					"Tamanho médio de cada solicitação": "100 KB",
+					"Solicitações": "10 por mês",
+					"Tamanho médio da mensagem": "32 KB"
+				}
+			},
+			{
+				"Nome do serviço": "S3 Standard",
+				"Região": "Leste dos EUA (N. da Virgínia)",
+				"Custo do serviço": {
+					"mensal": "11.55",
+					"Pagamento adiantado": "0.00",
+					"12 meses": "138.60"
+				},
+				"Propriedades": {
+					"Armazenamento S3 Standard": "500 GB por mês",
+					"Solicitações PUT, COPY, POST, LIST para S3 Standard": "10000",
+					"GET, SELECT e todas as outras solicitações do S3 Standard": "10000"
+				}
+			},
+			{
+				"Nome do serviço": "Data Transfer",
+				"Região": "Leste dos EUA (N. da Virgínia)",
+				"Custo do serviço": {
+					"mensal": "0.00",
+					"Pagamento adiantado": "0.00",
+					"12 meses": "0.00"
+				},
+				"Propriedades": {
+					"DT Entrada: Not selected": "10 GB por mês",
+					"DT Saída: Not selected": "10 GB por mês"
+				}
+			},
+			{
+				"Nome do serviço": "AWS Lambda",
+				"Região": "Leste dos EUA (N. da Virgínia)",
+				"Custo do serviço": {
+					"mensal": "0.00",
+					"Pagamento adiantado": "0.00",
+					"12 meses": "0.00"
+				},
+				"Propriedades": {
+					"Modo de invocação": "Em buffer",
+					"Arquitetura": "x86",
+					"Número de solicitações": "10000 por mês",
+					"Quantidade de armazenamento temporário alocada": "512 MB"
+				}
+			},
+			{
+				"Nome do serviço": "FIFO Topics",
+				"Região": "Leste dos EUA (N. da Virgínia)",
+				"Custo do serviço": {
+					"mensal": "0.14",
+					"Pagamento adiantado": "0.00",
+					"12 meses": "1.68"
+				},
+				"Propriedades": {
+					"Solicitações": "10000 por mês",
+					"Tamanho médio da mensagem": "100 KB",
+					"Período de retenção": "30 dias"
+				}
+			},
+			{
+				"Nome do serviço": "DynamoDB on-demand capacity",
+				"Região": "Leste dos EUA (N. da Virgínia)",
+				"Custo do serviço": {
+					"mensal": "25.00",
+					"Pagamento adiantado": "0.00",
+					"12 meses": "300.00"
+				},
+				"Propriedades": {
+					"Classe de tabela": "Standard",
+					"Tamanho médio do item (todos os atributos)": "10 KB",
+					"Tamanho do armazenamento de dados": "100 GB"
+				}
+			}
+		]
+	}
+}
