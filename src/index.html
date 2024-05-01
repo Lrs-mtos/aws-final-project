@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Upload de Relatórios</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Upload de Relatórios</h1>
+
+        <div class="form-group">
+            <label for="nomeInput">Nome:</label>
+            <input type="text" id="nomeInput" placeholder="Digite seu nome">
+        </div>
+
+        <div class="form-group">
+            <label for="matriculaInput">Matrícula:</label>
+            <input type="text" id="matriculaInput" placeholder="Digite sua matrícula">
+        </div>
+
+        <div class="form-group">
+            <label for="emailInput">Email:</label>
+            <input type="email" id="emailInput" placeholder="Digite seu email">
+        </div>
+
+        <div class="container-input">
+            <label for="fileInput">Selecionar Arquivo</label>
+            <input type="file" id="fileInput" class="file-upload-input" accept=".pdf,.doc,.docx" />
+            <button id="dicaButton" onclick="showFileTypes()">?</button>
+        </div>
+
+        <button onclick="handleFileSelect()">Enviar</button>
+        <p id="statusMessage"></p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
