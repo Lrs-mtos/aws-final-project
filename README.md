@@ -1,6 +1,6 @@
 # Projeto de Upload de Relatórios com AWS
 
-<img src="arquitetura_aws.png" alt="Diagrama da Arquitetura" width="500">
+<img src="arquitetura_aws.png" alt="Diagrama da Arquitetura" width="800">
 
 ## Descrição
 
