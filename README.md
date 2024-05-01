@@ -4,7 +4,7 @@
 
 ## Descrição
 
-Este projeto implementa uma solução para o upload de relatórios usando a infraestrutura da AWS, garantindo resiliência, segurança e alta disponibilidade. A aplicação permite que usuários façam upload de arquivos de relatório através de uma interface web, enquanto o back-end processa e armazena esses arquivos de forma segura no AWS S3.
+Este projeto implementa uma solução para o upload de relatórios usando a infraestrutura da AWS, garantindo resiliência, segurança e alta disponibilidade. A aplicação permite que usuários façam upload de arquivos de relatório através de uma interface web, enquanto o back-end processa e armazena esses arquivos de forma segura no AWS S3. Também é feita uma estimativa de gastos que informa ao usuário os custos do uso dos serviços AWS num contexto de vários acessos.
 
 ## Tecnologias Utilizadas
 
@@ -13,8 +13,9 @@ Este projeto implementa uma solução para o upload de relatórios usando a infr
 - **AWS API Gateway**: Interface para as funções Lambda e gerenciamento das URLs pré-assinadas para uploads seguros.
 - **AWS IAM**: Gerenciamento de acesso e políticas de segurança.
 - **AWS SNS**: Gera notificações de confirmação de upload dos arquivos.
-- **AWS Route 53**: Gerenciamento de DNS para a aplicação.
+- **AWS Pricing Calculator**: Configura uma estimativa de custo com produtos e serviços da AWS.
 - **HTML/CSS/JavaScript**: Front-end para coleta de dados de usuário e upload de arquivos.
+
 
 ## Configuração e Execução
 
@@ -44,9 +45,6 @@ Antes de iniciar, você precisará ter uma conta AWS configurada com as permiss�
 
 5. **Configuração de IAM**:
    - Certifique-se de criar as políticas de IAM para gerenciar as permissões de acesso dos serviços AWS utilizados.
-
-6. **DNS via Route 53**:
-   - Configure o Route 53 para gerenciar o DNS da aplicação, apontando para o S3 e o API Gateway conforme necessário.
 
 ### Executando Localmente
 
