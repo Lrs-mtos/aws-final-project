@@ -30,13 +30,13 @@ Antes de iniciar, você precisará ter uma conta AWS configurada com as permiss�
    - Configure as políticas de bucket para garantir acesso seguro e público do bucket.
 
 2. **Deploy do AWS Lambda**:
-   - Utilize as funções Lambda conforme apresentadas na pastar _src_ neste repositório para processar os uploads de arquivos.
+   - Utilize as funções Lambda conforme apresentadas na pasta `src` neste repositório para processar os uploads de arquivos.
    - Defina a trigger para essas funções a partir do API Gateway.
 
 3. **Configuração do API Gateway**:
    - Configure um novo API Gateway para criar o endpoint que suas função Lambda usará.
    - Defina métodos POST para aceitar uploads e gerar URLs pré-assinadas.
-   - Faça o deploy do stage e substitua a URL presente no script.js pela URL gerada no deploy.
+   - Faça o deploy do stage e substitua a URL presente no `script.js` pela URL gerada no deploy.
 
 4. **Configuração do SNS**:
    - Crie um novo tópico de fila padrão para gerenciar as notificações.
