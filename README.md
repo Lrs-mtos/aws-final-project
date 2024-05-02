@@ -9,7 +9,7 @@ Este projeto implementa uma solução para o upload de relatórios usando a infr
 ## Tecnologias Utilizadas
 
 - **AWS S3**: Armazenamento dos arquivos de relatório e da página web estática.
-- **AWS Lambda**: Processamento dos eventos de upload de arquivo.
+- **AWS Lambda**: Processamento dos eventos de upload de arquivo e notificação.
 - **AWS API Gateway**: Interface para as funções Lambda e gerenciamento das URLs pré-assinadas para uploads seguros.
 - **AWS IAM**: Gerenciamento de acesso e políticas de segurança.
 - **AWS SNS**: Gera notificações de confirmação de upload dos arquivos.
@@ -60,8 +60,9 @@ Este projeto é distribuído sob a licença MIT. Veja o arquivo `LICENSE` no rep
 
 ## Autores
 
-- Bruna
-- Debora
-- Larissa
-- Loyanne 
+- Anna Vithoria
+- Bruna Minusso
+- Debora Be
+- Larissa Matos 
+- Loyanne Moreira
 
